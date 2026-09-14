@@ -1,0 +1,126 @@
+*{
+    border: none;
+    font-family: "Ubuntu Mono", sans-serif;
+    color: white;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: url("../img/Fundo.jpg") center center fixed;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.coluna{
+    background: rgba(0, 0, 0, 0.521);
+    width: 600px;
+    height: 100%;
+    border-radius: 13px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.direita{
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.New{
+    border: black 1px solid;
+    background-color: rgb(121, 151, 133);
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.camera-frame {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto 0;
+}
+
+.camera-frame .camera {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.camera-frame .lista-atualizacoes {
+    position: absolute;
+    left: 10.7%;
+    top: 21.3%;
+    width: 53%;
+    height: 64%;
+    overflow-y: auto;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 0;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.camera-frame .lista-atualizacoes::-webkit-scrollbar {
+    display: none;
+}
+
+.menu{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+}
+
+.menu > a {
+    padding: 10px;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100%;
+}
+
+.menu-wrapper .coluna {
+    width: auto;
+    height: auto;
+}
+
+.conteudo-extra {
+    margin-top: 10px;
+    padding-left: 10px;
+    width: auto;
+}
+
+.curiosisade{
+    padding: 10px;
+}
