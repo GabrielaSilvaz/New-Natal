@@ -1,0 +1,95 @@
+*{
+    border: none;
+    font-family: "Ubuntu Mono", sans-serif;
+    color: white;
+}
+
+html {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: url("../img/Fundo.jpg") center center fixed;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buton:hover{
+    color: rgba(65, 139, 81, 0.897);
+}
+.direita{
+    height: 100%;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.coluna{
+    background: rgba(0, 0, 0, 0.521);
+    width: 600px;
+    height: 100%;
+    border-radius: 13px;
+   
+}
+
+.Format{
+    padding: 15px;
+}
+
+.menu{
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 10px;
+}
+
+.menu > a {
+    padding: 10px;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+
+.menu-wrapper .coluna {
+    width: auto;
+    height: auto;
+}
+
+.conteudo-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 600px;
+}
+
+.conteudo-wrapper .coluna {
+    width: auto;
+    height: auto;
+}
+
+.conteudo{
+    padding-left: 10px;
+}
+

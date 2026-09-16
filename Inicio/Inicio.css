@@ -99,6 +99,11 @@ main {
     margin: 10px;
 }
 
+
+.buton:hover{
+    color: rgba(65, 139, 81, 0.897);
+}
+
 .menu > a {
     padding: 10px;
 }
