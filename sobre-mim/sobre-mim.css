@@ -16,7 +16,7 @@ html::-webkit-scrollbar {
 body {
     margin: 0;
     min-height: 100vh;
-    background: url("../img/Fundo.jpg") center center fixed;
+    background: url("../img/fundo.jpg") center center fixed;
     background-size: cover;
 }
 
@@ -34,6 +34,13 @@ main {
 .buton:hover{
     color: rgba(65, 139, 81, 0.897);
 }
+
+.Foto-p{
+  width: 320px;
+  height: 290px;
+  border-radius: 100%;
+}
+
 .direita{
     height: 100%;
 }
@@ -92,4 +99,3 @@ main {
 .conteudo{
     padding-left: 10px;
 }
-
